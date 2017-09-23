@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Portfolio</title>
+		<!-- Set default character set -->
+		<meta charset="utf-8">
+		<!-- Set default viewport for responsive design -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Link reset.css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<!-- Link style.css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+		<!-- Header element -->
+		<div id="headerElement">
+			<header>
+				<!-- Div to hold name -->
+				<div id="yourName">
+					<h1>Your Name</h1>
+				</div>
+				<!-- Navigation bar with Ul styled with CSS -->
+				<nav>
+					<ul>
+						<a class="aboutLinks" href="index.html"><li>About</li></a>
+						<li>|</li>
+						<a class="aboutLinks" href="portfolio.html"><li>Portfolio</li></a>
+						<li>|</li>
+						<a class="aboutLinks" href="contact.html"><li>Contact</li></a>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<!-- div to contain all main content between header and footer -->
+		<div id="mainSection">
+			<!-- div to contain about me section -->
+			<div id="mainContent">
+				<div id="aboutMe">
+					<h1>Contact</h1>
+				</div>
+				<form>
+          <label for="name">Name</label>
+				  <input type="text" id="name" placeholder="Your Name">
+          <label for="email">Email</label>
+          <input type="email" id="ename" placeholder="example@gmail.com">
+					<label for="message">Message</label>
+          <textarea rows="15" cols="45"></textarea>
+					<input type="submit" class="submitBtn" name="Submit" value="Submit">
+				</form>
+			</div>
+			<!-- div to contain social links section -->
+			<div id="sidebar">
+				<h2>Connect With Me</h2>
+				<a href="https://www.github.com/rshah-nu" target="_blank"><img src="assets/images/gh.png" alt="github"></a>
+				<a href="https://www.linkedin.com" target="_blank"><img src="assets/images/ln.png" alt="linkedIn"></a>
+				<a href="https://www.stackoverflow.com" target="_blank"><img src="assets/images/so.png" alt="stack overflow"></a>
+			</div>
+		</div>
+		<!-- Footer element -->
+		<div id="footerElement">
+			<footer>
+				<h5>Copyright Your Name - 2017</h5>
+			</footer>
+		</div>
+	</body>
+</html>
