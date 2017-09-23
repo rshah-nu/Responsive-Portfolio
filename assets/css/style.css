@@ -277,12 +277,17 @@ input[type=submit] {
 
   #masthead {
     max-height: 100%;
+    position: static;
+    margin-bottom: 0px;
+  }
+
+  #main-container {
+    padding-top: 45px;
   }
 
   #logo {
     width: 100%;
     margin-bottom: 0px;
-    /* height: 80px; */
   }
 
   nav {
@@ -300,7 +305,7 @@ input[type=submit] {
   }
 
   .main-section {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .auth-image {
